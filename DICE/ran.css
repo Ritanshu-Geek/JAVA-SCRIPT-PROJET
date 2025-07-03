@@ -1,0 +1,66 @@
+body {
+    background-color: #f0f4f8;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* Styling the ran heading */
+h1 {
+    color: #222;
+    font-size: 4rem;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling the output number */
+h2 {
+    color: #444;
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+/* Button styling */
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin: 10px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.2);
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+}
+
+/* Hover effect */
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+    box-shadow: 2px 6px 12px rgba(0,0,0,0.3);
+}
+
+/* Active (clicked) effect */
+button:active {
+    transform: scale(0.95);
+}
+
+/* Different color for restart */
+#restart {
+    background-color: #28a745;
+}
+
+#restart:hover {
+    background-color: #1e7e34;
+}
+
+/* Different color for sub */
+#sub {
+    background-color: #dc3545;
+}
+
+#sub:hover {
+    background-color: #a71d2a;
+}
